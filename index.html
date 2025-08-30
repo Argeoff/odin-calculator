@@ -3,48 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Calculator ➕➖✖️➗</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        .container{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .display {
-            margin: 20px 0px;         /* center horizontally */
-            border: 2px solid black;
-            width: 60%;                /* fills 80% of container/screen */
-            max-width: 450px;          /* won’t get too wide on large screens */
-            min-width: 250px;          /* won’t shrink too small on tiny screens */
-            height: 8vh;               /* responsive height relative to viewport */
-            font-size: 2rem;           /* scales a bit with screen */
-            padding: 0 1rem;            /* 0 top/bottom, 1rem left/right */
-            border-radius: 5px;        /* optional: rounded corners */
-            display: flex;              /* make it a flex container */
-            align-items: center;        /* vertical centering */
-        }
-        
-        .row {
-            display: flex;
-            gap: 5px;
-            width: 60%;
-            max-width: 450px;
-            min-width: 250px; 
-        }
-
-        .button {
-            flex: 1 1 0;
-            border: 2px solid black;
-            font-size: 1rem;
-            padding: 1rem;
-            border-radius: 5px;
-            min-width: 0; 
-        }
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Calculator ➕➖✖️➗</h1>
